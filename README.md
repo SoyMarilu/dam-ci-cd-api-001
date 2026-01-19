@@ -38,22 +38,6 @@ Para ejecutar este proyecto localmente necesitas:
 * Maven (opcional, se incluye el wrapper `mvnw`).
 * Git configurado.
 
-## 💻 Ejecución en Local
-
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone [https://github.com/TU_USUARIO/TU_REPO.git](https://github.com/TU_USUARIO/TU_REPO.git)
-    cd TU_REPO
-    ```
-
-2.  **Compilar y Ejecutar:**
-    ```bash
-    ./mvnw spring-boot:run
-    ```
-
-3.  **Verificar:**
-    Abre tu navegador en `http://localhost:8080`.
-
 ## 📡 Endpoints Disponibles
 
 La API expone los siguientes recursos públicos:
