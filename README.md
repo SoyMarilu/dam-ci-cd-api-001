@@ -1,6 +1,5 @@
 # API REST con Spring Boot y CI/CD en AWS Elastic Beanstalk
 
-![Build Status](https://github.com/TU_USUARIO/TU_REPO/actions/workflows/deploy.yml/badge.svg)
 
 Este proyecto implementa una API REST básica utilizando **Spring Boot 3** y **Java 17**, integrada en un flujo completo de DevOps. El objetivo principal es demostrar la automatización del ciclo de vida del software mediante **Integración Continua (CI)** y **Despliegue Continuo (CD)** utilizando GitHub Actions y AWS.
 
@@ -62,13 +61,12 @@ La API expone los siguientes recursos públicos:
 | Método | Ruta | Descripción |
 | :--- | :--- | :--- |
 | `GET` | `/` | Mensaje de bienvenida confirmando la ejecución. |
-| `GET` | `/api/estado` | Devuelve un JSON con el estado del servicio, nombre del alumno y mensaje de sistema. |
+| `GET` | `/api/estado` | Devuelve un JSON con el estado del servicio, nombre del servicio y mensaje de sistema. |
 
 **Ejemplo de respuesta `/api/estado`:**
 ```json
 {
-  "estado": "Activo",
-  "servicio": "Spring Boot API",
-  "alumno": "Marilú Hernández",
-  "mensaje": "Funcionando en AWS"
+  "estado": "OK",
+  "mensaje": "API operativa",
+  "servicio": "dam-ci-cd-api-001"
 }
